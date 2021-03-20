@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @apply test */
+/* .btn {
+  @apply font-bold py-2 px-4 rounded !important;
+} */
+
+.btn {
+  @apply bg-black text-white;
+}

@@ -10,5 +10,6 @@
   "eslint.validate": [
       "javascript",
       "typescript"
-  ],
+],
+"css.validate": false,
 }

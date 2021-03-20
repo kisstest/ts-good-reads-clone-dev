@@ -16,5 +16,13 @@ module.exports = {
     performance: {
       hints: false,
     },
+    module: {
+      rules: [
+        {
+          test: /\.(s*)css$/,
+          use: ['postcss-loader'],
+        },
+      ],
+    },
   },
 };
